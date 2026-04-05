@@ -1,0 +1,57 @@
+id: lu-xun
+name: Lu Xun
+wikidata: Q23114
+life: 1881–1936
+ring: extended
+
+birth_year: 1881
+death_year: 1936
+birth_place: Shaoxing
+occupations:
+  - short story writer
+  - essayist
+  - novelist
+  - critic
+  - literary critic
+  - Esperantist
+  - translator
+  - poet
+  - writer
+movements:
+  - New Culture Movement
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Old Tales Retold
+    wikidata: Q11079012
+  - title: Panghuang
+    wikidata: Q11070132
+  - title: Call to Arms
+    wikidata: Q10919784
+  - title: A Brief History of Chinese Fiction
+    wikidata: Q10873657
+  - title: Picking the morning flower in the evening
+    wikidata: Q7228197
+  - title: "A Madman's Diary"
+    wikidata: Q967831
+  - title: The True Story of Ah Q
+    wikidata: Q613121
+  - title: Kong Yiji
+    wikidata: Q444381
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

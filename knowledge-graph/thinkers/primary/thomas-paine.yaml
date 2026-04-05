@@ -1,0 +1,45 @@
+id: thomas-paine
+name: Thomas Paine
+wikidata: Q126462
+life: 1737–1809
+ring: primary
+
+birth_year: 1737
+death_year: 1809
+birth_place: Thetford
+occupations:
+  - prose writer
+  - opinion journalist
+  - philosopher
+  - journalist
+  - entrepreneur
+  - politician
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: The Age of Reason
+    wikidata: Q1983019
+  - title: Rights of Man
+    wikidata: Q979108
+  - title: Common Sense
+    wikidata: Q843940
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

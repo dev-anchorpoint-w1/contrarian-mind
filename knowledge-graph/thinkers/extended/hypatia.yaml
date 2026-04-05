@@ -1,0 +1,38 @@
+id: hypatia
+name: Hypatia
+wikidata: Q11903
+life: 360–415
+ring: extended
+
+birth_year: 360
+death_year: 415
+birth_place: Alexandria
+occupations:
+  - Q170790
+  - Q4964182
+  - astronomer
+  - Q36180
+  - Q205375
+movements:
+  - Neoplatonism
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  []
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

@@ -1,0 +1,59 @@
+id: emma-goldman
+name: Emma Goldman
+wikidata: Q79969
+life: 1869–1940
+ring: extended
+
+birth_year: 1869
+death_year: 1940
+birth_place: Kaunas
+occupations:
+  - "women's rights activist"
+  - political philosopher
+  - autobiographer
+  - peace activist
+  - pacifist
+  - anarchist
+  - lecturer
+  - philosopher
+  - publisher
+  - journalist
+  - author
+  - nurse
+  - politician
+  - writer
+movements:
+  []
+
+influenced_by:
+  - id: oscar-wilde
+    nature: ""
+  - id: friedrich-nietzsche
+    nature: ""
+
+influences:
+  []
+
+key_works:
+  - title: The Social Significance of the Modern Drama
+    wikidata: Q7765078
+  - title: My Further Disillusionment in Russia
+    wikidata: Q6945542
+  - title: My Disillusionment in Russia
+    wikidata: Q6945291
+  - title: Anarchism and Other Essays
+    wikidata: Q4751627
+  - title: Living My Life
+    wikidata: Q3290152
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

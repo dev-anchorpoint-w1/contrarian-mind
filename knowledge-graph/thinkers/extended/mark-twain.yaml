@@ -1,0 +1,49 @@
+id: mark-twain
+name: Mark Twain
+wikidata: Q7245
+life: 1835–1910
+ring: extended
+
+birth_year: 1835
+death_year: 1910
+birth_place: Florida
+occupations:
+  - science fiction writer
+  - autobiographer
+  - humorist
+  - prose writer
+  - novelist
+  - opinion journalist
+  - "children's writer"
+  - aphorist
+  - travel writer
+  - journalist
+  - teacher
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  - id: h-l-mencken
+    nature: ""
+
+key_works:
+  - title: The Adventures of Tom Sawyer
+    wikidata: Q326914
+  - title: Adventures of Huckleberry Finn
+    wikidata: Q215410
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

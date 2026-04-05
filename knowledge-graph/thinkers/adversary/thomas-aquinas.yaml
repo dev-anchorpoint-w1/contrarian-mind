@@ -1,0 +1,81 @@
+id: thomas-aquinas
+name: Thomas Aquinas
+wikidata: Q9438
+life: 1225–1274
+ring: adversary
+
+birth_year: 1225
+death_year: 1274
+birth_place: castle of the counts of Aquino
+occupations:
+  - writer
+  - friar
+  - theologian
+  - Latin Catholic priest
+  - university teacher
+  - philosopher
+  - Catholic theologian
+  - theology teacher
+movements:
+  - scholasticism
+  - Thomism
+  - just war theory
+
+influenced_by:
+  - id: ibn-sina
+    nature: ""
+  - id: augustine-of-hippo
+    nature: ""
+  - id: al-ghazali
+    nature: ""
+  - id: averroes
+    nature: ""
+
+influences:
+  []
+
+key_works:
+  - title: De regimine principum
+    wikidata: Q331046
+  - title: Summa contra Gentiles
+    wikidata: Q604274
+  - title: Summa Theologica
+    wikidata: Q653871
+  - title: Quinque viae
+    wikidata: Q1192931
+  - title: Compendium theologiae
+    wikidata: Q2990401
+  - title: De unitate intellectus contra averroistas
+    wikidata: Q106583055
+  - title: Expositio super librum de causis
+    wikidata: Q109285937
+  - title: "Commentary on Aristotle's Metaphysics"
+    wikidata: Q113665534
+  - title: Quaestio disputata De anima
+    wikidata: Q131961777
+  - title: Postilla super Psalmos
+    wikidata: Q136745633
+  - title: Super Boetium De Trinitate
+    wikidata: Q136749417
+  - title: Sententia super Meteora
+    wikidata: Q136749501
+  - title: De emptione et venditione
+    wikidata: Q136749645
+  - title: Commentarium super Job
+    wikidata: Q136749660
+  - title: Scriptum super libros Sententiarum
+    wikidata: Q136749664
+  - title: De ente et essentia
+    wikidata: Q136749669
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

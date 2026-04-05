@@ -1,0 +1,41 @@
+id: salman-rushdie
+name: Salman Rushdie
+wikidata: Q44306
+life: 1947
+ring: primary
+
+birth_year: 1947
+death_year: 
+birth_place: Mumbai
+occupations:
+  - essayist
+  - novelist
+  - "children's writer"
+  - author
+  - writer
+  - actor
+  - screenwriter
+movements:
+  - historical criticism
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: The Satanic Verses
+    wikidata: Q191288
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

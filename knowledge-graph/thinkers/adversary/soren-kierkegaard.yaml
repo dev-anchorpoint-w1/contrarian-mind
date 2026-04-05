@@ -1,0 +1,59 @@
+id: soren-kierkegaard
+name: Søren Kierkegaard
+wikidata: Q6512
+life: 1813–1855
+ring: adversary
+
+birth_year: 1813
+death_year: 1855
+birth_place: Copenhagen
+occupations:
+  - novelist
+  - philosopher
+  - literary critic
+  - theologian
+  - poet
+  - writer
+movements:
+  - existentialism
+
+influenced_by:
+  []
+
+influences:
+  - id: albert-camus
+    nature: ""
+
+key_works:
+  - title: Works of Love
+    wikidata: Q9294209
+  - title: The Book on Adler
+    wikidata: Q7719342
+  - title: Christian Discourses
+    wikidata: Q5109537
+  - title: The Sickness Unto Death
+    wikidata: Q1214072
+  - title: Fear and Trembling
+    wikidata: Q1193229
+  - title: The Concept of Anxiety
+    wikidata: Q1192442
+  - title: Either/Or
+    wikidata: Q1152009
+  - title: Q1076331
+    wikidata: Q1076331
+  - title: "Stages on Life's Way"
+    wikidata: Q861155
+  - title: Concluding Unscientific Postscript to Philosophical Fragments
+    wikidata: Q849447
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

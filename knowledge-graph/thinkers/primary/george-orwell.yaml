@@ -1,0 +1,57 @@
+id: george-orwell
+name: George Orwell
+wikidata: Q3335
+life: 1903–1950
+ring: primary
+
+birth_year: 1903
+death_year: 1950
+birth_place: Motihari
+occupations:
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: "The Lion and the Unicorn: Socialism and the English Genius"
+    wikidata: Q16386694
+  - title: Why I Write
+    wikidata: Q7997805
+  - title: "A Clergyman's Daughter"
+    wikidata: Q2619167
+  - title: Politics and the English Language
+    wikidata: Q2273966
+  - title: Burmese Days
+    wikidata: Q1762079
+  - title: Animal Farm
+    wikidata: Q1396889
+  - title: Down and Out in Paris and London
+    wikidata: Q1355487
+  - title: Keep the Aspidistra Flying
+    wikidata: Q1217656
+  - title: The Road to Wigan Pier
+    wikidata: Q1197966
+  - title: Coming Up for Air
+    wikidata: Q967866
+  - title: Homage to Catalonia
+    wikidata: Q514694
+  - title: Nineteen Eighty-Four
+    wikidata: Q208460
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

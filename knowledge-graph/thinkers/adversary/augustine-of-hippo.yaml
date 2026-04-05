@@ -1,0 +1,50 @@
+id: augustine-of-hippo
+name: Augustine of Hippo
+wikidata: Q8018
+life: 354–430
+ring: adversary
+
+birth_year: 354
+death_year: 430
+birth_place: Thagaste
+occupations:
+  - autobiographer
+  - music theorist
+  - philosopher
+  - theologian
+  - titular bishop
+  - Catholic bishop
+  - preacher
+  - Catholic priest
+  - historian
+  - poet
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  - id: thomas-aquinas
+    nature: ""
+
+key_works:
+  - title: On the Trinity
+    wikidata: Q1180413
+  - title: Confessions
+    wikidata: Q372941
+  - title: The City of God
+    wikidata: Q212318
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

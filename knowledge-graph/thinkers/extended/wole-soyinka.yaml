@@ -1,0 +1,50 @@
+id: wole-soyinka
+name: Wole Soyinka
+wikidata: Q41488
+life: 1934
+ring: extended
+
+birth_year: 1934
+death_year: 
+birth_place: Ogun State
+occupations:
+  - essayist
+  - novelist
+  - philosopher
+  - translator
+  - playwright
+  - professor
+  - poet
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Harmattan Haze on an African Spring
+    wikidata: Q130724008
+  - title: Chronicles from the Land of the Happiest People on Earth
+    wikidata: Q108887906
+  - title: Season of Anomy
+    wikidata: Q23307171
+  - title: The Lion and the Jewel
+    wikidata: Q7747492
+  - title: The Interpreters
+    wikidata: Q3772120
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

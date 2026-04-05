@@ -1,0 +1,37 @@
+id: democritus
+name: Democritus
+wikidata: Q41980
+life: 460 BCE–360 BCE
+ring: extended
+
+birth_year: -460
+death_year: -360
+birth_place: Ancient Abdera
+occupations:
+  - philosopher
+  - mathematician
+  - art historian
+movements:
+  - atomism
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: quadratrix of Hippias
+    wikidata: Q2121861
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

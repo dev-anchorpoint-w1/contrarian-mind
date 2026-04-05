@@ -1,0 +1,53 @@
+id: al-ghazali
+name: Al-Ghazali
+wikidata: Q9546
+life: 1058–1111
+ring: adversary
+
+birth_year: 1058
+death_year: 1111
+birth_place: Tus
+occupations:
+  - journal editor
+  - autobiographer
+  - mutakallim
+  - philosopher
+  - Sufi
+  - Islamic jurist
+  - journalist
+  - poet
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  - id: thomas-aquinas
+    nature: ""
+  - id: averroes
+    nature: ""
+
+key_works:
+  - title: On Legal theory of Muslim Jurisprudence
+    wikidata: Q12192939
+  - title: The Moderation in Belief
+    wikidata: Q12184084
+  - title: The Revival of the Religious Sciences
+    wikidata: Q4165276
+  - title: The Alchemy of Happiness
+    wikidata: Q2784563
+  - title: The Incoherence of the Philosophers
+    wikidata: Q2736005
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

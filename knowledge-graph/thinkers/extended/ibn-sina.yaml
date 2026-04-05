@@ -1,0 +1,56 @@
+id: ibn-sina
+name: Avicenna
+wikidata: Q8011
+life: 980–1037
+ring: extended
+
+birth_year: 980
+death_year: 1037
+birth_place: Afshona
+occupations:
+  - music theorist
+  - ethicist
+  - philosopher
+  - Islamic jurist
+  - chemist
+  - polymath
+  - mathematician
+  - physicist
+  - poet
+  - physician
+  - writer
+  - astronomer
+movements:
+  []
+
+influenced_by:
+  - id: al-razi
+    nature: ""
+
+influences:
+  - id: thomas-aquinas
+    nature: ""
+  - id: baruch-spinoza
+    nature: ""
+  - id: averroes
+    nature: ""
+
+key_works:
+  - title: Al-isharat wa al-tanbihat
+    wikidata: Q22948618
+  - title: The Book of Healing
+    wikidata: Q1030940
+  - title: Canon of Medicine
+    wikidata: Q466060
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

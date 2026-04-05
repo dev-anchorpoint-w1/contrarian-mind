@@ -1,0 +1,53 @@
+id: averroes
+name: Averroes
+wikidata: Q39837
+life: 1126–1198
+ring: extended
+
+birth_year: 1126
+death_year: 1198
+birth_place: Córdoba
+occupations:
+  - philosopher
+  - physician
+  - teacher
+  - writer
+  - judge
+  - astronomer
+movements:
+  - Averroism
+  - aristotelianism
+
+influenced_by:
+  - id: al-ghazali
+    nature: ""
+  - id: ibn-sina
+    nature: ""
+
+influences:
+  - id: thomas-aquinas
+    nature: ""
+  - id: baruch-spinoza
+    nature: ""
+
+key_works:
+  - title: On the Harmony of Religions and Philosophy
+    wikidata: Q28222009
+  - title: Colliget
+    wikidata: Q18643682
+  - title: Bidayat al-Mujtahid
+    wikidata: Q12197641
+  - title: The Incoherence of the Incoherence
+    wikidata: Q3675181
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

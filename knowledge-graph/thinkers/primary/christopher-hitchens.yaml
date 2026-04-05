@@ -1,0 +1,63 @@
+id: christopher-hitchens
+name: Christopher Hitchens
+wikidata: Q49081
+life: 1949–2011
+ring: primary
+
+birth_year: 1949
+death_year: 2011
+birth_place: Portsmouth
+occupations:
+  - journalist
+  - writer
+  - essayist
+  - autobiographer
+  - literary critic
+  - political scientist
+movements:
+  - atheism
+
+influenced_by:
+  - id: george-orwell
+    nature: ""
+  - id: leon-trotsky
+    nature: ""
+  - id: thomas-paine
+    nature: ""
+  - id: salman-rushdie
+    nature: ""
+  - id: edward-said
+    nature: ""
+  - id: albert-camus
+    nature: ""
+
+influences:
+  []
+
+key_works:
+  - title: Letters to a Young Contrarian
+    wikidata: Q3237057
+  - title: God Is Not Great
+    wikidata: Q24596
+  - title: "The Missionary Position: Mother Teresa in Theory and Practice"
+    wikidata: Q2699045
+  - title: Mortality
+    wikidata: Q6914395
+  - title: Hitch-22
+    wikidata: Q3138625
+  - title: No One Left to Lie To
+    wikidata: Q7044696
+  - title: "Hitchens' razor"
+    wikidata: Q887815
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

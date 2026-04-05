@@ -1,0 +1,42 @@
+id: ta-nehisi-coates
+name: Ta-Nehisi Coates
+wikidata: Q15452495
+life: 1975
+ring: extended
+
+birth_year: 1975
+death_year: 
+birth_place: Baltimore
+occupations:
+  - comics writer
+  - blogger
+  - novelist
+  - journalist
+  - educator
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: The Water Dancer
+    wikidata: Q85808827
+  - title: Between the World and Me
+    wikidata: Q20669329
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

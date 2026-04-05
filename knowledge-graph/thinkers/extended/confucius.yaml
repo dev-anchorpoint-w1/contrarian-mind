@@ -1,0 +1,38 @@
+id: confucius
+name: Confucius
+wikidata: Q4604
+life: 550 BCE–478 BCE
+ring: extended
+
+birth_year: -550
+death_year: -478
+birth_place: Qufu
+occupations:
+  - philosopher
+  - teacher
+  - writer
+movements:
+  - Confucianism
+
+influenced_by:
+  []
+
+influences:
+  - id: voltaire
+    nature: ""
+
+key_works:
+  - title: Analects
+    wikidata: Q276015
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

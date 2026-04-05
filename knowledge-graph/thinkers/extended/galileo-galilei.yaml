@@ -1,0 +1,46 @@
+id: galileo-galilei
+name: Galileo Galilei
+wikidata: Q307
+life: 1564–1642
+ring: extended
+
+birth_year: 1564
+death_year: 1642
+birth_place: Pisa
+occupations:
+  - philosopher
+  - university teacher
+  - inventor
+  - mathematician
+  - physicist
+  - astrologer
+  - politician
+  - engineer
+  - astronomer
+  - scientist
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: equations for a falling body
+    wikidata: Q1132975
+  - title: Galilean transformation
+    wikidata: Q219207
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

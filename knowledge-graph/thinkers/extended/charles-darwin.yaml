@@ -1,0 +1,60 @@
+id: charles-darwin
+name: Charles Darwin
+wikidata: Q1035
+life: 1809–1882
+ring: extended
+
+birth_year: 1809
+death_year: 1882
+birth_place: The Mount
+occupations:
+  - scientific collector
+  - ethologist
+  - explorer
+  - philosopher
+  - travel writer
+  - botanist
+  - botanical collector
+  - geologist
+  - writer
+  - naturalist
+movements:
+  []
+
+influenced_by:
+  - id: david-hume
+    nature: ""
+
+influences:
+  - id: friedrich-nietzsche
+    nature: ""
+
+key_works:
+  - title: The Power of Movement in Plants
+    wikidata: Q4354654
+  - title: Q1801903
+    wikidata: Q1801903
+  - title: The Voyage of the Beagle
+    wikidata: Q1768515
+  - title: The Expression of the Emotions in Man and Animals
+    wikidata: Q1192325
+  - title: The Descent of Man, and Selection in Relation to Sex
+    wikidata: Q1165434
+  - title: Insectivorous Plants
+    wikidata: Q941356
+  - title: The Formation of Vegetable Mould through the Action of Worms
+    wikidata: Q917790
+  - title: On the Origin of Species
+    wikidata: Q20124
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

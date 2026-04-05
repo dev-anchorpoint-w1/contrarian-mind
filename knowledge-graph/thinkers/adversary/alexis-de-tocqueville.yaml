@@ -1,0 +1,42 @@
+id: alexis-de-tocqueville
+name: Alexis de Tocqueville
+wikidata: Q140694
+life: 1805–1859
+ring: adversary
+
+birth_year: 1805
+death_year: 1859
+birth_place: Paris
+occupations:
+  - philosopher
+  - sociologist
+  - historian
+  - jurist
+  - politician
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: The Old Regime and the Revolution
+    wikidata: Q3178724
+  - title: Democracy in America
+    wikidata: Q784882
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

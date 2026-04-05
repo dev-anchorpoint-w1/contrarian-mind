@@ -1,0 +1,49 @@
+id: karl-marx
+name: Karl Marx
+wikidata: Q9061
+life: 1818–1883
+ring: extended
+
+birth_year: 1818
+death_year: 1883
+birth_place: Trier
+occupations:
+  - philosopher
+  - revolutionary
+  - sociologist
+  - journalist
+  - historian
+  - economist
+  - politician
+  - poet
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: The German Ideology
+    wikidata: Q470600
+  - title: Economic and Philosophic Manuscripts of 1844
+    wikidata: Q295347
+  - title: "Capital: A Critique of Political Economy"
+    wikidata: Q58784
+  - title: The Communist Manifesto
+    wikidata: Q40591
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

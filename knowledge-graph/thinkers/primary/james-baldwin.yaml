@@ -1,0 +1,49 @@
+id: james-baldwin
+name: James Baldwin
+wikidata: Q273210
+life: 1924–1987
+ring: primary
+
+birth_year: 1924
+death_year: 1987
+birth_place: Harlem
+occupations:
+  - poet
+  - novelist
+  - playwright
+  - civil rights advocate
+  - essayist
+  - social critic
+  - screenwriter
+  - university teacher
+  - short story writer
+  - gay fiction writer
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Go Tell It on the Mountain
+    wikidata: Q1444052
+  - title: "Giovanni's Room"
+    wikidata: Q5563645
+  - title: Notes of a Native Son
+    wikidata: Q7062618
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

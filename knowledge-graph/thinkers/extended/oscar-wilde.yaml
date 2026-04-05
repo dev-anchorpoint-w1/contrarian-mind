@@ -1,0 +1,57 @@
+id: oscar-wilde
+name: Oscar Wilde
+wikidata: Q30875
+life: 1854–1900
+ring: extended
+
+birth_year: 1854
+death_year: 1900
+birth_place: Dublin
+occupations:
+  - novelist
+  - opinion journalist
+  - "children's writer"
+  - fabulist
+  - author
+  - playwright
+  - poet
+  - writer
+  - screenwriter
+  - short story writer
+  - prose writer
+  - essayist
+  - librettist
+movements:
+  - Decadent movement
+  - Aestheticism
+
+influenced_by:
+  []
+
+influences:
+  - id: emma-goldman
+    nature: ""
+
+key_works:
+  - title: The Soul of Man under Socialism
+    wikidata: Q1196990
+  - title: The Importance of Being Earnest
+    wikidata: Q830501
+  - title: The Canterville Ghost
+    wikidata: Q288020
+  - title: The Picture of Dorian Gray
+    wikidata: Q82464
+  - title: The Ballad of Reading Gaol
+    wikidata: Q2119279
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

@@ -1,0 +1,47 @@
+id: mary-wollstonecraft
+name: Mary Wollstonecraft
+wikidata: Q101638
+life: 1759–1797
+ring: extended
+
+birth_year: 1759
+death_year: 1797
+birth_place: Q123219
+occupations:
+  - Q333634
+  - philosopher
+  - Q201788
+  - Q6625963
+  - essayist
+  - Q1540278
+  - Q11293375
+  - travel writer
+  - Q4853732
+  - Q36180
+movements:
+  - feminism
+
+influenced_by:
+  - id: thomas-paine
+    nature: ""
+
+influences:
+  []
+
+key_works:
+  - title: Q300646
+    wikidata: Q300646
+  - title: Letters Written During a Short Residence in Sweden, Norway, and Denmark
+    wikidata: Q1754997
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

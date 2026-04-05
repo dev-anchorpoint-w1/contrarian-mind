@@ -1,0 +1,56 @@
+id: diderot
+name: Denis Diderot
+wikidata: Q448
+life: 1713–1784
+ring: extended
+
+birth_year: 1713
+death_year: 1784
+birth_place: Langres
+occupations:
+  - art theorist
+  - literary theorist
+  - lexicographer
+  - essayist
+  - novelist
+  - philosopher
+  - literary critic
+  - art critic
+  - correspondent
+  - political scientist
+  - encyclopédistes
+  - translator
+  - playwright
+  - historian
+  - writer
+movements:
+  - Enlightenment philosophy
+  - encyclopédistes
+  - materialism
+
+influenced_by:
+  - id: baruch-spinoza
+    nature: ""
+  - id: voltaire
+    nature: ""
+
+influences:
+  []
+
+key_works:
+  - title: Jacques the Fatalist
+    wikidata: Q945216
+  - title: Encyclopédie
+    wikidata: Q447
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

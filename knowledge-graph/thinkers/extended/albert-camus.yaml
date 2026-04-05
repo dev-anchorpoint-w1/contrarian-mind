@@ -1,0 +1,67 @@
+id: albert-camus
+name: Albert Camus
+wikidata: Q34670
+life: 1913–1960
+ring: extended
+
+birth_year: 1913
+death_year: 1960
+birth_place: Dréan
+occupations:
+  - association football player
+  - playwright
+  - poet
+  - writer
+  - French resistance fighter
+  - essayist
+  - novelist
+  - opinion journalist
+  - philosopher
+  - journalist
+movements:
+  - continental philosophy
+
+influenced_by:
+  - id: friedrich-nietzsche
+    nature: ""
+  - id: simone-de-beauvoir
+    nature: ""
+  - id: soren-kierkegaard
+    nature: ""
+  - id: fyodor-dostoevsky
+    nature: ""
+
+influences:
+  []
+
+key_works:
+  - title: The Myth of Sisyphus
+    wikidata: Q1125903
+  - title: The Fall
+    wikidata: Q690362
+  - title: The Plague
+    wikidata: Q320372
+  - title: The Stranger
+    wikidata: Q163297
+  - title: Albert Camus, María Casares. Correspondence (1944-1959)
+    wikidata: Q47632985
+  - title: Caligula
+    wikidata: Q2632077
+  - title: Neither Victims Nor Executioners
+    wikidata: Q1610030
+  - title: A Happy Death
+    wikidata: Q1198739
+  - title: "L'homme révolté"
+    wikidata: Q1195789
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

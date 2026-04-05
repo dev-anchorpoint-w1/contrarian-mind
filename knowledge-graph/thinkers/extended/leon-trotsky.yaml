@@ -1,0 +1,50 @@
+id: leon-trotsky
+name: Leon Trotsky
+wikidata: Q33391
+life: 1879–1940
+ring: extended
+
+birth_year: 1879
+death_year: 1940
+birth_place: Bereslavka
+occupations:
+  - communist
+  - autobiographer
+  - philosopher
+  - revolutionary
+  - journalist
+  - historian
+  - diplomat
+  - politician
+  - military personnel
+  - writer
+movements:
+  - Trotskyism
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: The Permanent Revolution
+    wikidata: Q7756737
+  - title: My Life
+    wikidata: Q3273600
+  - title: The Revolution Betrayed
+    wikidata: Q1785017
+  - title: Trotskyism
+    wikidata: Q181133
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

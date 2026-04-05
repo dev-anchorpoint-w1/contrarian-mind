@@ -1,0 +1,38 @@
+id: socrates
+name: Socrates
+wikidata: Q913
+life: 469 BCE–398 BCE
+ring: primary
+
+birth_year: -469
+death_year: -398
+birth_place: Alopeke
+occupations:
+  - ethicist
+  - philosopher
+  - teacher
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  - id: friedrich-nietzsche
+    nature: ""
+
+key_works:
+  []
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

@@ -1,0 +1,40 @@
+id: michael-sandel
+name: Michael Sandel
+wikidata: Q381044
+life: 1953
+ring: adversary
+
+birth_year: 1953
+death_year: 
+birth_place: Minneapolis
+occupations:
+  - political philosopher
+  - university teacher
+  - pedagogue
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Liberalism and the Limits of Justice
+    wikidata: Q6540882
+  - title: "Justice: What's the Right Thing to Do?"
+    wikidata: Q6316835
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

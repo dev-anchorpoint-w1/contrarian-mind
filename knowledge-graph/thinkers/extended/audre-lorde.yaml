@@ -1,0 +1,54 @@
+id: audre-lorde
+name: Audre Lorde
+wikidata: Q463319
+life: 1934–1992
+ring: extended
+
+birth_year: 1934
+death_year: 1992
+birth_place: New York City
+occupations:
+  - feminist
+  - "women's rights activist"
+  - essayist
+  - novelist
+  - philosopher
+  - university teacher
+  - librarian
+  - poet
+  - teacher
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Poetry is Not a Luxury
+    wikidata: Q125989281
+  - title: Cables to Rage
+    wikidata: Q85545416
+  - title: "Uses of the Erotic: The Erotic as Power"
+    wikidata: Q85542398
+  - title: Sister Outsider
+    wikidata: Q23307340
+  - title: "Zami: A New Spelling of My Name"
+    wikidata: Q8065806
+  - title: The Cancer Journals
+    wikidata: Q7721167
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

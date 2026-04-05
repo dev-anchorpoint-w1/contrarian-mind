@@ -1,0 +1,46 @@
+id: al-maarri
+name: "al-Ma'arri"
+wikidata: Q277073
+life: 973–1057
+ring: extended
+
+birth_year: 973
+death_year: 1057
+birth_place: "Ma'arrat Nu'man"
+occupations:
+  - philosopher
+  - poet
+  - writer
+movements:
+  - skepticism
+  - antinatalism
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Paragraphs and Periods
+    wikidata: Q100261022
+  - title: Risālat al-ṣāhil wa-al-shāḥij
+    wikidata: Q99547283
+  - title: Resalat Al-Ghufran
+    wikidata: Q16737005
+  - title: Saqt az-Zand
+    wikidata: Q12212566
+  - title: Diwan al-Lazumiyat
+    wikidata: Q12212559
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

@@ -1,0 +1,53 @@
+id: simone-weil
+name: Simone Weil
+wikidata: Q157309
+life: 1909–1943
+ring: extended
+
+birth_year: 1909
+death_year: 1943
+birth_place: Paris
+occupations:
+  - French resistance fighter
+  - diarist
+  - autobiographer
+  - trade unionist
+  - secondary school teacher
+  - philosopher
+  - translator
+  - poet
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Notebooks
+    wikidata: Q123021044
+  - title: Oppression and Liberty
+    wikidata: Q118089243
+  - title: La condition ouvrière
+    wikidata: Q16570373
+  - title: Gravity and Grace
+    wikidata: Q16569918
+  - title: Reflections Concerning the Causes of Liberty and Social Oppression
+    wikidata: Q3935320
+  - title: The Need for Roots
+    wikidata: Q3203147
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

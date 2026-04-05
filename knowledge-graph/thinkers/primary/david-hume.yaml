@@ -1,0 +1,52 @@
+id: david-hume
+name: David Hume
+wikidata: Q37160
+life: 1711–1776
+ring: primary
+
+birth_year: 1711
+death_year: 1776
+birth_place: Edinburgh
+occupations:
+  - essayist
+  - philosopher
+  - historian
+  - economist
+  - librarian
+  - writer
+movements:
+  - philosophical skepticism
+  - empiricism
+  - naturalism
+  - Age of Enlightenment
+
+influenced_by:
+  []
+
+influences:
+  - id: charles-darwin
+    nature: ""
+  - id: bertrand-russell
+    nature: ""
+
+key_works:
+  - title: The History of England
+    wikidata: Q7739783
+  - title: A Treatise of Human Nature
+    wikidata: Q2451675
+  - title: An Enquiry Concerning the Principles of Morals
+    wikidata: Q1306663
+  - title: Philosophical Essays Concerning Human Understanding
+    wikidata: Q1306656
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

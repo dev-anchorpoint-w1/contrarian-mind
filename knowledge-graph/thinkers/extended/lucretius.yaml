@@ -1,0 +1,36 @@
+id: lucretius
+name: Lucretius
+wikidata: Q47154
+life: 94 BCE–55 BCE
+ring: extended
+
+birth_year: -94
+death_year: -55
+birth_place: Pompeii
+occupations:
+  - poet
+  - philosopher
+  - writer
+movements:
+  - atomism
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  []
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

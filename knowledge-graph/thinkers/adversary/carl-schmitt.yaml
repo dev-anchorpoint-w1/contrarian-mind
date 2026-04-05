@@ -1,0 +1,40 @@
+id: carl-schmitt
+name: Carl Schmitt
+wikidata: Q77148
+life: 1888–1985
+ring: adversary
+
+birth_year: 1888
+death_year: 1985
+birth_place: Plettenberg
+occupations:
+  - geopolitical analyst
+  - jurist
+  - politician
+movements:
+  - Conservative Revolution
+  - Western philosophy
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Land und Meer
+    wikidata: Q61830251
+  - title: The Concept of the Political
+    wikidata: Q7727278
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

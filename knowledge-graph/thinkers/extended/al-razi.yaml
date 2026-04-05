@@ -1,0 +1,46 @@
+id: al-razi
+name: Abu Bakr al-Razi
+wikidata: Q169234
+life: 866–925
+ring: extended
+
+birth_year: 866
+death_year: 925
+birth_place: Ray
+occupations:
+  - philosopher
+  - chemist
+  - inventor
+  - mathematician
+  - physician
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  - id: ibn-sina
+    nature: ""
+
+key_works:
+  - title: Q108041965
+    wikidata: Q108041965
+  - title: Ṭibb al-rūḥānī
+    wikidata: Q30753122
+  - title: Doubts About Galen
+    wikidata: Q20407794
+  - title: The comprehensive book on medicine
+    wikidata: Q12186092
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

@@ -1,0 +1,45 @@
+id: h-l-mencken
+name: H. L. Mencken
+wikidata: Q439204
+life: 1880–1956
+ring: extended
+
+birth_year: 1880
+death_year: 1956
+birth_place: Baltimore
+occupations:
+  - literary critic
+  - journalist
+  - historian
+  - writer
+  - autobiographer
+  - social critic
+  - linguist
+  - essayist
+  - satirist
+movements:
+  []
+
+influenced_by:
+  - id: friedrich-nietzsche
+    nature: ""
+  - id: mark-twain
+    nature: ""
+
+influences:
+  []
+
+key_works:
+  []
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

@@ -1,0 +1,91 @@
+id: bertrand-russell
+name: Bertrand Russell
+wikidata: Q33760
+life: 1872–1970
+ring: primary
+
+birth_year: 1872
+death_year: 1970
+birth_place: Trellech
+occupations:
+  - writer
+  - politician
+  - mathematician
+  - pedagogue
+  - university teacher
+  - journalist
+  - philosopher
+  - political activist
+  - essayist
+  - logician
+  - epistemologist
+  - social critic
+  - pacifist
+  - peace activist
+  - philosopher of science
+  - metaphysician
+  - autobiographer
+  - science fiction writer
+  - philosopher of language
+  - analytic philosopher
+movements:
+  - analytic philosophy
+  - freethought
+  - Western philosophy
+
+influenced_by:
+  - id: baruch-spinoza
+    nature: ""
+  - id: david-hume
+    nature: ""
+  - id: john-stuart-mill
+    nature: ""
+
+influences:
+  []
+
+key_works:
+  - title: A History of Western Philosophy
+    wikidata: Q133740
+  - title: Principia Mathematica
+    wikidata: Q163335
+  - title: "Power: A New Social Analysis"
+    wikidata: Q466376
+  - title: Marriage and Morals
+    wikidata: Q522520
+  - title: Introduction to Mathematical Philosophy
+    wikidata: Q544347
+  - title: In Praise of Idleness and Other Essays
+    wikidata: Q2317772
+  - title: The Problems of Philosophy
+    wikidata: Q3393210
+  - title: Q3821889
+    wikidata: Q3821889
+  - title: "Human Knowledge: Its Scope and Limits"
+    wikidata: Q5900442
+  - title: My Philosophical Development
+    wikidata: Q6946277
+  - title: The Principles of Mathematics
+    wikidata: Q7758358
+  - title: Wisdom of the West
+    wikidata: Q16128222
+  - title: The Autobiography of Bertrand Russell
+    wikidata: Q16547570
+  - title: Proposed Roads to Freedom
+    wikidata: Q19086253
+  - title: Justice in war time
+    wikidata: Q50374964
+  - title: Human society in ethics and politics
+    wikidata: Q98654800
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

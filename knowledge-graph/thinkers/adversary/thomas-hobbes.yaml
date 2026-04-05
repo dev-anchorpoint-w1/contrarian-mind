@@ -1,0 +1,52 @@
+id: thomas-hobbes
+name: Thomas Hobbes
+wikidata: Q37621
+life: 1588–1679
+ring: adversary
+
+birth_year: 1588
+death_year: 1679
+birth_place: Westport
+occupations:
+  - political scientist
+  - mathematician
+  - philosopher
+  - economist
+  - politician
+  - historian
+  - translator
+  - writer
+  - in-home tutor
+  - philosopher of law
+movements:
+  - empiricism
+  - determinism
+  - legal positivism
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Leviathan
+    wikidata: Q193034
+  - title: De Cive
+    wikidata: Q1149540
+  - title: De Corpore
+    wikidata: Q5244329
+  - title: De Homine
+    wikidata: Q129759346
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

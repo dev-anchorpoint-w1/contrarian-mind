@@ -1,0 +1,36 @@
+id: epicurus
+name: Epicurus
+wikidata: Q43216
+life: 342 BCE–270 BCE
+ring: primary
+
+birth_year: -342
+death_year: -270
+birth_place: Samos
+occupations:
+  - philosopher
+  - writer
+movements:
+  - Epicureanism
+
+influenced_by:
+  - id: democritus
+    nature: ""
+
+influences:
+  []
+
+key_works:
+  []
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

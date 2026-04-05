@@ -1,0 +1,51 @@
+id: baruch-spinoza
+name: Benedictus de Spinoza
+wikidata: Q35802
+life: 1632–1677
+ring: extended
+
+birth_year: 1632
+death_year: 1677
+birth_place: Amsterdam
+occupations:
+  - grinder of lenses
+  - Bible translator
+  - grammarian
+  - philosopher
+  - political scientist
+  - theologian
+movements:
+  - Western philosophy
+  - rationalism
+
+influenced_by:
+  - id: averroes
+    nature: ""
+  - id: ibn-sina
+    nature: ""
+
+influences:
+  - id: diderot
+    nature: ""
+  - id: friedrich-nietzsche
+    nature: ""
+  - id: bertrand-russell
+    nature: ""
+
+key_works:
+  - title: Ethics
+    wikidata: Q862816
+  - title: conatus
+    wikidata: Q248966
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

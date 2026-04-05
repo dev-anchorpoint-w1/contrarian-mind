@@ -1,0 +1,61 @@
+id: simone-de-beauvoir
+name: Simone de Beauvoir
+wikidata: Q7197
+life: 1908–1986
+ring: primary
+
+birth_year: 1908
+death_year: 1986
+birth_place: 6th arrondissement of Paris
+occupations:
+  - women letter writer
+  - journalist
+  - author
+  - writer
+  - philosophy teacher
+  - feminist
+  - diarist
+  - political philosopher
+  - autobiographer
+  - essayist
+  - political activist
+  - novelist
+  - philosopher
+  - literary critic
+movements:
+  - existentialism
+  - feminism
+  - atheism
+
+influenced_by:
+  []
+
+influences:
+  - id: albert-camus
+    nature: ""
+
+key_works:
+  - title: The Mandarins
+    wikidata: Q1214721
+  - title: Force of Circumstance
+    wikidata: Q968115
+  - title: She Came to Stay
+    wikidata: Q859773
+  - title: The Second Sex
+    wikidata: Q470098
+  - title: When Things of the Spirit Come First
+    wikidata: Q151578
+  - title: Pyrrhus and Cineas
+    wikidata: Q3411417
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

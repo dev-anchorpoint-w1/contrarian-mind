@@ -1,0 +1,46 @@
+id: montaigne
+name: Michel de Montaigne
+wikidata: Q41568
+life: 1533–1592
+ring: extended
+
+birth_year: 1533
+death_year: 1592
+birth_place: Saint-Michel-de-Montaigne
+occupations:
+  - autobiographer
+  - prose writer
+  - essayist
+  - philosopher
+  - French moralist
+  - poet lawyer
+  - translator
+  - jurist
+  - politician
+  - poet
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  - id: friedrich-nietzsche
+    nature: ""
+
+key_works:
+  - title: Essays
+    wikidata: Q624852
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

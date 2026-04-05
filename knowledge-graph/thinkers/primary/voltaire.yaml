@@ -1,0 +1,69 @@
+id: voltaire
+name: Voltaire
+wikidata: Q9068
+life: 1694–1778
+ring: primary
+
+birth_year: 1694
+death_year: 1778
+birth_place: Paris
+occupations:
+  - historian
+  - poet
+  - writer
+  - diarist
+  - science fiction writer
+  - autobiographer
+  - essayist
+  - philosopher
+  - correspondent
+  - political scientist
+  - poet lawyer
+  - encyclopédistes
+  - playwright
+movements:
+  - deism
+  - freethought
+  - Age of Enlightenment
+
+influenced_by:
+  - id: confucius
+    nature: ""
+
+influences:
+  - id: diderot
+    nature: ""
+  - id: friedrich-nietzsche
+    nature: ""
+
+key_works:
+  - title: The Huron; or, Pupil of Nature
+    wikidata: Q1985932
+  - title: Zaïre
+    wikidata: Q377950
+  - title: Candide
+    wikidata: Q215894
+  - title: Zadig or Destiny
+    wikidata: Q140057
+  - title: Correspondance avec le roi de Prusse Frédéric II
+    wikidata: Q19150125
+  - title: Correspondence of Voltaire
+    wikidata: Q19150121
+  - title: Letters on the English
+    wikidata: Q2551373
+  - title: Mahomet
+    wikidata: Q1431518
+  - title: Dictionnaire philosophique
+    wikidata: Q656976
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

@@ -1,0 +1,51 @@
+id: john-stuart-mill
+name: John Stuart Mill
+wikidata: Q50020
+life: 1806–1873
+ring: primary
+
+birth_year: 1806
+death_year: 1873
+birth_place: London Borough of Islington
+occupations:
+  - writer
+  - suffragist
+  - autobiographer
+  - philosopher
+  - botanical collector
+  - clerk
+  - egalitarianism
+  - economist
+  - politician
+movements:
+  - egalitarianism
+  - utilitarianism
+  - atheism
+  - liberalism
+
+influenced_by:
+  []
+
+influences:
+  - id: bertrand-russell
+    nature: ""
+
+key_works:
+  - title: Autobiography
+    wikidata: Q19053628
+  - title: Considerations on Representative Government
+    wikidata: Q5163201
+  - title: On Liberty
+    wikidata: Q1055881
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

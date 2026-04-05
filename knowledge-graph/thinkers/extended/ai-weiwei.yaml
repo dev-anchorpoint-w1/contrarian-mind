@@ -1,0 +1,44 @@
+id: ai-weiwei
+name: Ai Weiwei
+wikidata: Q160115
+life: 1957
+ring: extended
+
+birth_year: 1957
+death_year: 
+birth_place: Beijing
+occupations:
+  - social activist
+  - designer
+  - visual artist
+  - film director
+  - human rights defender
+  - sculptor
+  - painter
+  - artist
+  - architect
+  - photographer
+movements:
+  - conceptual art
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Sunflower Seeds
+    wikidata: Q10683893
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

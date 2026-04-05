@@ -1,0 +1,46 @@
+id: frederick-douglass
+name: Frederick Douglass
+wikidata: Q215562
+life: 1818–1895
+ring: primary
+
+birth_year: 1818
+death_year: 1895
+birth_place: Talbot County
+occupations:
+  - caulker
+  - suffragist
+  - autobiographer
+  - abolitionist
+  - orator
+  - film editor
+  - journalist
+  - editor
+  - diplomat
+  - politician
+  - writer
+movements:
+  - suffrage
+  - abolitionism
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Narrative of the Life of Frederick Douglass, an American Slave
+    wikidata: Q2904743
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

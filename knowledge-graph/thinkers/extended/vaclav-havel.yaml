@@ -1,0 +1,60 @@
+id: vaclav-havel
+name: Václav Havel
+wikidata: Q36233
+life: 1936–2011
+ring: extended
+
+birth_year: 1936
+death_year: 2011
+birth_place: Prague
+occupations:
+  - essayist
+  - opinion journalist
+  - philosopher
+  - director
+  - film director
+  - human rights defender
+  - political prisoner
+  - playwright
+  - dissident
+  - politician
+  - poet
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: The Power of the Powerless
+    wikidata: Q12038401
+  - title: Audience
+    wikidata: Q10859039
+  - title: The Memorandum
+    wikidata: Q7750966
+  - title: Temptation
+    wikidata: Q7699026
+  - title: Leaving
+    wikidata: Q6510712
+  - title: Largo desolato
+    wikidata: Q6489297
+  - title: Antikódy
+    wikidata: Q4774879
+  - title: The Garden Party
+    wikidata: Q3645585
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

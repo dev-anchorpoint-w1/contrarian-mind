@@ -1,0 +1,42 @@
+id: olympe-de-gouges
+name: Olympe de Gouges
+wikidata: Q206972
+life: 1748–1793
+ring: extended
+
+birth_year: 1748
+death_year: 1793
+birth_place: Montauban
+occupations:
+  - philosopher
+  - journalist
+  - author
+  - playwright
+  - politician
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Q25389160
+    wikidata: Q25389160
+  - title: Declaration of the Rights of Woman and the Female Citizen
+    wikidata: Q730868
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

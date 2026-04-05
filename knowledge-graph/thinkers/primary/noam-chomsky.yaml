@@ -1,0 +1,127 @@
+id: noam-chomsky
+name: Noam Chomsky
+wikidata: Q9049
+life: 1928
+ring: primary
+
+birth_year: 1928
+death_year: 
+birth_place: Philadelphia
+occupations:
+  - writer
+  - computer scientist
+  - historian
+  - psychologist
+  - educator
+  - human rights defender
+  - university teacher
+  - anthropologist
+  - philosopher
+  - opinion journalist
+  - philologist
+  - linguist
+  - political writer
+  - media critic
+movements:
+  - atheism
+  - New Left
+  - anarcho-syndicalism
+  - anti-war movement
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Chomsky hierarchy
+    wikidata: Q190913
+  - title: The Sound Pattern of English
+    wikidata: Q1074959
+  - title: Syntactic Structures
+    wikidata: Q1198080
+  - title: Failed States
+    wikidata: Q1198699
+  - title: Manufacturing Consent
+    wikidata: Q1213103
+  - title: Interventions
+    wikidata: Q1671448
+  - title: "Hegemony or Survival: America’s Quest for Global Dominance"
+    wikidata: Q2386750
+  - title: Cartesian Linguistics
+    wikidata: Q4357609
+  - title: Profit over People
+    wikidata: Q4377740
+  - title: 9-11
+    wikidata: Q4645527
+  - title: American Power and the New Mandarins
+    wikidata: Q4744720
+  - title: Aspects of the Theory of Syntax
+    wikidata: Q4807772
+  - title: Class Warfare
+    wikidata: Q5128009
+  - title: Q5159299
+    wikidata: Q5159299
+  - title: "Counter-Revolutionary Violence: Bloodbaths in Fact & Propaganda"
+    wikidata: Q5176873
+  - title: Deterring Democracy
+    wikidata: Q5265720
+  - title: Gaza in Crisis
+    wikidata: Q5528984
+  - title: Ilusionistas
+    wikidata: Q5914121
+  - title: Imperial Ambitions
+    wikidata: Q6006356
+  - title: Knowledge of Language
+    wikidata: Q6423386
+  - title: Lectures on Government and Binding
+    wikidata: Q6512436
+  - title: Making the Future
+    wikidata: Q6739682
+  - title: "Necessary Illusions: Thought Control in Democratic Societies"
+    wikidata: Q6985409
+  - title: Objectivity and Liberal Scholarship
+    wikidata: Q7075090
+  - title: Occupy
+    wikidata: Q7075828
+  - title: The Prosperous Few and the Restless Many
+    wikidata: Q7758607
+  - title: World Orders Old and New
+    wikidata: Q8036007
+  - title: The Fateful Triangle
+    wikidata: Q10322956
+  - title: The Chomsky Reader
+    wikidata: Q16547580
+  - title: "Understanding Power:  The Indispensable Chomsky"
+    wikidata: Q16547846
+  - title: Middle East Illusions
+    wikidata: Q16821245
+  - title: Propaganda and the Public Mind
+    wikidata: Q18669751
+  - title: "Why Only Us: Language and Evolution"
+    wikidata: Q26215999
+  - title: The Political Economy of Human Rights
+    wikidata: Q27628282
+  - title: Current Issues in Linguistic Theory
+    wikidata: Q35999116
+  - title: Requiem for the American Dream
+    wikidata: Q48803125
+  - title: What Kind of Creatures Are We?
+    wikidata: Q68368707
+  - title: "Rogue States: The Rule of Force in World Affairs"
+    wikidata: Q106821911
+  - title: How the World Works
+    wikidata: Q135108119
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

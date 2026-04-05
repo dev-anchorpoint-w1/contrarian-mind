@@ -1,0 +1,37 @@
+id: zhuangzi
+name: Zhuang Zhou
+wikidata: Q47739
+life: 368 BCE–287 BCE
+ring: extended
+
+birth_year: -368
+death_year: -287
+birth_place: Shangqiu
+occupations:
+  - philosopher
+  - poet
+  - writer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Zhuangzi
+    wikidata: Q1074987
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

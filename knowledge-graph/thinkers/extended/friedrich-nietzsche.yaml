@@ -1,0 +1,67 @@
+id: friedrich-nietzsche
+name: Friedrich Nietzsche
+wikidata: Q9358
+life: 1844–1900
+ring: extended
+
+birth_year: 1844
+death_year: 1900
+birth_place: Röcken
+occupations:
+  - writer
+  - composer
+  - poet
+  - playwright
+  - pedagogue
+  - music critic
+  - philosopher
+  - classical philologist
+movements:
+  []
+
+influenced_by:
+  - id: socrates
+    nature: ""
+  - id: fyodor-dostoevsky
+    nature: ""
+  - id: charles-darwin
+    nature: ""
+  - id: voltaire
+    nature: ""
+  - id: baruch-spinoza
+    nature: ""
+  - id: montaigne
+    nature: ""
+  - id: thucydides
+    nature: ""
+
+influences:
+  []
+
+key_works:
+  - title: Thus Spoke Zarathustra
+    wikidata: Q199774
+  - title: The Birth of Tragedy
+    wikidata: Q1053359
+  - title: On the Advantage and Disadvantage of History for Life
+    wikidata: Q1283184
+  - title: Untimely Meditations
+    wikidata: Q1605652
+  - title: Q19230492
+    wikidata: Q19230492
+  - title: Schopenhauer as Educator
+    wikidata: Q108737025
+  - title: Q120609061
+    wikidata: Q120609061
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

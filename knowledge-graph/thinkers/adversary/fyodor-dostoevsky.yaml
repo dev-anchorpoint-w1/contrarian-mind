@@ -1,0 +1,60 @@
+id: fyodor-dostoevsky
+name: Fyodor Dostoyevsky
+wikidata: Q991
+life: 1821–1881
+ring: adversary
+
+birth_year: 1821
+death_year: 1881
+birth_place: Mariinsky Hospital for the Poor
+occupations:
+  - writer
+  - translator
+  - biographer
+  - journalist
+  - philosopher
+  - opinion journalist
+  - novelist
+  - essayist
+  - prose writer
+  - short story writer
+movements:
+  - literary realism
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Poor Folk
+    wikidata: Q117293
+  - title: Crime and Punishment
+    wikidata: Q165318
+  - title: The Brothers Karamazov
+    wikidata: Q183157
+  - title: The Idiot
+    wikidata: Q210784
+  - title: The Gambler
+    wikidata: Q223688
+  - title: Demons
+    wikidata: Q329989
+  - title: Notes from Underground
+    wikidata: Q695116
+  - title: The House of the Dead
+    wikidata: Q1161171
+  - title: The Double
+    wikidata: Q1192975
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

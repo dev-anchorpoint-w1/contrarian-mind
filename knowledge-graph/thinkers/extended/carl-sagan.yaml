@@ -1,0 +1,60 @@
+id: carl-sagan
+name: Carl Sagan
+wikidata: Q410
+life: 1934–1996
+ring: extended
+
+birth_year: 1934
+death_year: 1996
+birth_place: Brooklyn
+occupations:
+  - science fiction writer
+  - planetary scientist
+  - non-fiction writer
+  - science communicator
+  - space scientist
+  - novelist
+  - science writer
+  - cosmologist
+  - university teacher
+  - television presenter
+  - astrophysicist
+  - physicist
+  - writer
+  - screenwriter
+  - naturalist
+  - astronomer
+movements:
+  []
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: Pale Blue Dot
+    wikidata: Q5231098
+  - title: "Broca's Brain: Reflections on the Romance of Science"
+    wikidata: Q4972600
+  - title: The Demon-Haunted World
+    wikidata: Q2482106
+  - title: Cosmos
+    wikidata: Q1194705
+  - title: "Cosmos: A Personal Voyage"
+    wikidata: Q866368
+  - title: Contact
+    wikidata: Q741013
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""

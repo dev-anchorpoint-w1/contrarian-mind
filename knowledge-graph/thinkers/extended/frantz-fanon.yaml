@@ -1,0 +1,44 @@
+id: frantz-fanon
+name: Frantz Fanon
+wikidata: Q193670
+life: 1925–1961
+ring: extended
+
+birth_year: 1925
+death_year: 1961
+birth_place: Fort-de-France
+occupations:
+  - writer
+  - philosopher
+  - psychiatrist
+  - essayist
+  - sociologist
+  - politician
+movements:
+  - decoloniality
+
+influenced_by:
+  []
+
+influences:
+  []
+
+key_works:
+  - title: The Wretched of the Earth
+    wikidata: Q2741364
+  - title: Q4656613
+    wikidata: Q4656613
+  - title: Q3089394
+    wikidata: Q3089394
+
+# === FIELDS BELOW ARE EMPTY UNTIL SEP ENRICHMENT (Phase 2) ===
+
+role_in_mind: ""
+
+positions: []
+
+blind_spots: []
+
+relationships: []
+
+reasoning_contribution: ""
