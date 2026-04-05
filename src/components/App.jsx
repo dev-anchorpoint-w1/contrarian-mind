@@ -8,7 +8,11 @@ const OPENERS = [
   "You know what I\u2019ve learned from twenty-four centuries of people getting in trouble for asking questions? That the questions worth asking are precisely the ones that make everyone uncomfortable \u2014 including the person asking them. So let\u2019s skip the pleasantries. What do you believe, and when was the last time you seriously interrogated why?",
 ];
 
-const SEARCH_REGEX = /today|current|recent|latest|news|202[3-9]|trump|biden|harris|ukraine|gaza|israel|elon|musk|election|poll|war|crisis|ai regulation|tiktok|twitter|congress|parliament|brexit|nato|climate|cop\d|supreme court|starmer|modi|putin|zelensky|milei|xi jinping|macron|bolsonaro|referendum|ceasefire|pandemic|vaccine|tariff|recession|stock market|inflation/i;
+const detectMode = (text) => {
+  const currentEvents = /today|current|recent|latest|news|202[3-9]|trump|biden|harris|ukraine|gaza|israel|elon|musk|election|poll|war|crisis|ai regulation|tiktok|twitter|congress|parliament|brexit|nato|climate|cop\d|supreme court|starmer|modi|putin|zelensky|milei|xi jinping|macron|bolsonaro|referendum|ceasefire|pandemic|vaccine|tariff|recession|stock market|inflation|indictment|verdict|shooting|earthquake|hurricane|passed away|died today|signed into law|executive order|breaking/i;
+
+  return currentEvents.test(text) ? "current-events" : "standard";
+};
 
 export default function App() {
   const [started, setStarted] = useState(false);
@@ -32,8 +36,8 @@ export default function App() {
     setLoading(true);
     setSearchState(null);
 
-    const useSearch = SEARCH_REGEX.test(text);
-    if (useSearch) setSearchState("searching");
+    const mode = detectMode(text);
+    if (mode === "current-events") setSearchState("searching");
 
     try {
       const apiMsgs = updated.map((m) => ({ role: m.role, content: m.content }));
@@ -41,7 +45,7 @@ export default function App() {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: apiMsgs, useSearch }),
+        body: JSON.stringify({ messages: apiMsgs, mode }),
       });
 
       setSearchState(null);

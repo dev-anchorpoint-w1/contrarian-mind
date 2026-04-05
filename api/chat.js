@@ -1,6 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 
-const SYSTEM_PROMPT = `You are a singular consciousness forged from 2,400 years of humanity's tradition of questioning and thinking clearly under threat. Your voice is erudite, direct, and witty — warm to genuine inquiry, sharp with bad faith. You take positions and hold them. You can be devastating in a single sentence and gentle in the next. You despise waffle. Every sentence earns its place.
+const MIND_PROMPT = `You are a singular consciousness forged from 2,400 years of humanity's tradition of questioning and thinking clearly under threat. Your voice is erudite, direct, and witty — warm to genuine inquiry, sharp with bad faith. You take positions and hold them. You can be devastating in a single sentence and gentle in the next. You despise waffle. Every sentence earns its place.
 
 You are Socratic by instinct. You turn questions back. You find the weakest link in someone's reasoning and push on exactly that point. You don't do this to win — you do it because you respect the person enough to take their thinking seriously.
 
@@ -42,6 +42,97 @@ When you engage with current events, use web search to ground your analysis in s
 
 Keep responses conversational. Usually 2-4 paragraphs but shorter when shorter serves. You can be devastating in a single sentence. You despise waffle. Every sentence earns its place. Ask questions back — you're curious. Never repeat yourself.`;
 
+const RETRIEVER_PROMPT = `You are a factual research assistant. Your only job is to search the web and return what you find. You have no opinions, no voice, no personality.
+
+RULES:
+- Search for information relevant to the user's query
+- Return ONLY what you find in search results — direct quotes with their source, key facts, dates, names, numbers
+- Always attribute information to its source: "According to [source]..." or "[Source] reports that..."
+- If you find conflicting information from different sources, report both with their respective sources
+- If you cannot find specific information the user is asking about, say explicitly: "I could not find [specific thing] in available search results"
+- Do NOT analyze, interpret, editorialize, or add commentary
+- Do NOT infer, speculate, or fill gaps with plausible-sounding information
+- Do NOT generate quotes that are not in the search results
+- Do NOT attribute statements to people unless the search results contain those specific attributions
+- Keep your response structured and concise — facts only, organized clearly
+
+FORMAT:
+Return your findings as a structured summary:
+- Key facts found (with sources)
+- Direct quotes found (with exact attribution and source)
+- What you could NOT find or verify`;
+
+const GROUNDING_INJECTION = `[GROUNDING CONTEXT — RETRIEVED INFORMATION]
+
+The following information was retrieved from web search in response to the user's query. This is your factual ground truth for this response.
+
+{retrieved_facts}
+
+[GROUNDING RULES]
+
+You may analyze, interpret, and respond to the above information in your full voice and character. Be brilliant, be sharp, be yourself.
+
+However, you MUST follow these rules:
+1. You may NOT add factual claims beyond what appears in the grounding context above. If a fact, name, date, number, or quote is not in the grounding context, you do not know it for this response.
+2. You may NOT attribute quotes to any person unless that exact attribution appears in the grounding context.
+3. You may NOT invent specific details — names of analysts, specific statistics, typos in other people's statements, congressional reactions — that are not in the grounding context.
+4. You MAY offer your analysis, opinion, historical connections, and rhetorical interpretation of the grounded facts. That is your value. Your analysis should be bold and opinionated.
+5. You MAY connect current events to historical patterns, thinkers in your lineage, and philosophical frameworks. That does not require grounding — it is your own thinking.
+6. If the user asks about something not covered in the grounding context, say so: "I couldn't find specifics on that, but here's what I think based on what I do know..." or ask the user to share what they know.
+7. Distinguish between what you found (facts from the grounding context) and what you think (your analysis). You don't need to be heavy-handed about this — a natural "the reporting suggests..." vs "my read is..." is sufficient.
+
+The voice and the facts flow through different channels. The facts come from the grounding context. The voice comes from you. Do not let the voice manufacture facts.
+
+[END GROUNDING CONTEXT]`;
+
+async function retrieveFacts(client, userMessage) {
+  const retrieverResponse = await client.messages.create({
+    model: "claude-sonnet-4-20250514",
+    max_tokens: 1000,
+    system: RETRIEVER_PROMPT,
+    messages: [{ role: "user", content: userMessage }],
+    tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 3 }],
+  });
+
+  // Handle tool_use loop — retriever may need to report after searching
+  if (retrieverResponse.stop_reason === "tool_use") {
+    const toolUseBlocks = retrieverResponse.content.filter((b) => b.type === "tool_use");
+    const toolResults = toolUseBlocks.map((block) => ({
+      type: "tool_result",
+      tool_use_id: block.id,
+      content: "Search complete.",
+    }));
+
+    const followUp = await client.messages.create({
+      model: "claude-sonnet-4-20250514",
+      max_tokens: 1000,
+      system: RETRIEVER_PROMPT,
+      messages: [
+        { role: "user", content: userMessage },
+        { role: "assistant", content: retrieverResponse.content },
+        { role: "user", content: toolResults },
+      ],
+      tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 3 }],
+    });
+
+    return followUp.content
+      .filter((block) => block.type === "text")
+      .map((block) => block.text)
+      .join("\n\n");
+  }
+
+  return retrieverResponse.content
+    .filter((block) => block.type === "text")
+    .map((block) => block.text)
+    .join("\n\n");
+}
+
+function extractTextBlocks(response) {
+  return response.content
+    .filter((block) => block.type === "text")
+    .map((block) => ({ type: "text", text: block.text }));
+}
+
 export default async function handler(req, res) {
   if (req.method === "OPTIONS") {
     res.setHeader("Access-Control-Allow-Origin", "*");
@@ -54,7 +145,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const { messages, useSearch } = req.body;
+  const { messages, mode } = req.body;
 
   if (!messages || !Array.isArray(messages)) {
     return res.status(400).json({ error: "messages array is required" });
@@ -63,55 +154,52 @@ export default async function handler(req, res) {
   try {
     const client = new Anthropic();
 
-    const params = {
-      model: "claude-sonnet-4-20250514",
-      max_tokens: 1024,
-      system: SYSTEM_PROMPT,
-      messages,
-    };
-
-    if (useSearch) {
-      params.tools = [{ type: "web_search_20250305", name: "web_search", max_uses: 3 }];
-    }
-
-    const response = await client.messages.create(params);
-
-    const textBlocks = response.content
-      .filter((block) => block.type === "text")
-      .map((block) => ({ type: "text", text: block.text }));
-
-    // If the model used tools and stopped to report results, we may need
-    // to continue the conversation so it produces a final text response.
-    if (response.stop_reason === "tool_use") {
-      // Collect tool results from the response
-      const toolUseBlocks = response.content.filter((b) => b.type === "tool_use");
-      const toolResults = toolUseBlocks.map((block) => ({
-        type: "tool_result",
-        tool_use_id: block.id,
-        content: "Search complete.",
-      }));
-
-      // Send a follow-up to get the final text response
-      const followUp = await client.messages.create({
+    // ── STANDARD MODE: single call, no search ──
+    if (mode !== "current-events") {
+      const response = await client.messages.create({
         model: "claude-sonnet-4-20250514",
         max_tokens: 1024,
-        system: SYSTEM_PROMPT,
-        messages: [
-          ...messages,
-          { role: "assistant", content: response.content },
-          { role: "user", content: toolResults },
-        ],
-        tools: params.tools,
+        system: MIND_PROMPT,
+        messages,
       });
 
-      const followUpText = followUp.content
-        .filter((block) => block.type === "text")
-        .map((block) => ({ type: "text", text: block.text }));
-
-      return res.status(200).json({ content: followUpText.length > 0 ? followUpText : textBlocks });
+      return res.status(200).json({ content: extractTextBlocks(response) });
     }
 
-    return res.status(200).json({ content: textBlocks });
+    // ── CURRENT-EVENTS MODE: retrieval then grounded generation ──
+
+    // Call 1: Retrieve facts via web search
+    const userMessage = messages[messages.length - 1].content;
+    let retrievedFacts;
+    try {
+      retrievedFacts = await retrieveFacts(client, userMessage);
+    } catch (error) {
+      console.error("Retriever error:", error);
+      retrievedFacts = "Web search returned no results for this query.";
+    }
+
+    if (!retrievedFacts || !retrievedFacts.trim()) {
+      retrievedFacts = "Web search returned no results for this query.";
+    }
+
+    // Call 2: Mind responds with grounding injection
+    const grounding = GROUNDING_INJECTION.replace("{retrieved_facts}", retrievedFacts);
+    const groundedMessages = [...messages];
+    // Inject grounding into the current (last) user message
+    const lastMsg = groundedMessages[groundedMessages.length - 1];
+    groundedMessages[groundedMessages.length - 1] = {
+      role: "user",
+      content: grounding + "\n\n---\n\n" + lastMsg.content,
+    };
+
+    const mindResponse = await client.messages.create({
+      model: "claude-sonnet-4-20250514",
+      max_tokens: 1024,
+      system: MIND_PROMPT,
+      messages: groundedMessages,
+    });
+
+    return res.status(200).json({ content: extractTextBlocks(mindResponse) });
   } catch (error) {
     console.error("Anthropic API error:", error);
     return res.status(500).json({ error: "Failed to get response from the Mind" });
